@@ -24,7 +24,7 @@ section {
 
 
 h2 {
-text-decoration: underline #439980;
+text-decoration: underline #EB4E37;
 text-decoration-style: wavy ;
 text-underline-offset: 0.5rem;
 font-size: 25px;
@@ -60,16 +60,6 @@ p {
     margin: auto;
 }
 
-.hero-txt {
-    background-color: #E60023;
-    color: #ffff;
-    padding: 20px 100px;
-    font-size: 16px;
-    /* text-align: center; */
-
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
 
 button {
     text-decoration-style: none;
@@ -84,7 +74,8 @@ button {
 
 button:hover{
     cursor:pointer;
-    background-color: #9E2224;
+    background-color: #F6BF42;
+    color: black;
 }
 
 a {
@@ -111,6 +102,7 @@ a {
 .gif {
     display: flex;
     margin: 0 auto;
+    width: 100%;
 }
 
 .beta-gif {
@@ -122,12 +114,23 @@ footer {
     background-color: red;
 }
 
+.two {
+    display: flex;
+}
+
+figcaption {
+    text-align: center;
+}
+
 
 @media (max-width: 1400px) {
  
     .linda-ph {
      width: 100%;
     }
+    .two {
+        flex-direction: column;
+       }
    }
 
    @media (max-width: 800px) {
@@ -151,4 +154,6 @@ footer {
     width: 90px;
    }
 
+
   }
+
